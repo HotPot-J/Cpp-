@@ -1,0 +1,21 @@
+string类非成员函数
+
+operator>> 输入运算符重载
+operator<< 输出运算符重载
+ 原型：istream& operator>>(istream& is,string& str);
+       istream& operator<<(ostream& os,const string& str);
+ 用法:string name;
+      cin>>name;
+      cout<<name<<endl;
+
+
+getline  获取一行字符串
+ 原型：istream& getline(istream& is,string& str,char delim);
+       istream& getline(istream& is,string& str);
+
+ 用法: getline(cin,name);
+
+ **测试见test_01.cpp
+
+
+
