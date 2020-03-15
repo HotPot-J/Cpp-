@@ -1,0 +1,32 @@
+1.string类对象的访问及遍历操作
+
+函数： 
+    operator[]  返回pos位置的字符，const string类对象的调用
+	
+	begin+end   begin获取一个字符的迭代器+end获取最后一个字符
+                的迭代器
+
+	rbegin+rend 功能同begin+end
+ 
+	**具体测试代码见test_01.cpp
+
+2.string类对象的修改操作
+   
+   push_back    在字符串后尾插字符c
+
+   append    在字符串后追加一个字符串
+
+   operator+=  在字符串后追加字符串str
+
+   c_str    返回c格式字符串
+   
+   find+npos 从字符串pos位置开始往后找字符c，返回该字符在字符串
+             中的位置
+
+   rfind     从字符串pos位置开始往后找字符c，返回该字符在字符串
+             中的位置
+
+   substr    在str中从pos位置开始截取n个字符，然后将其返回
+
+   **具体测试代码见test_02.cpp
+

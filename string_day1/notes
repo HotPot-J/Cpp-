@@ -1,0 +1,27 @@
+1.string是表示字符串的字符串类
+2.该类的接口与常规容器接口基本相同，再专门添加了一些专门用来
+操作string的常规操作
+3.不能操作多字节或变长字节序列
+
+1.常用接口：
+
+string()  构造空的string类对象，即空字符串
+
+string(const char*s)  用C-string来构造string类对象
+
+string(size_t n,char c) string类对象中包含n个字符c
+
+string(const string&s)  拷贝构造函数
+
+**测试代码见test_01.cpp 
+
+2.string类对象的容量操作
+
+   size  返回字符串有效字符长度
+   length 返回字符串有效字符长度
+   capacity 返回空间总大小
+   empty 检测字符串是否为空串 是返回true 否则返回flase
+   reserve 为字符串预留空间
+   resize 将有效字符的个数改成n个，多出的空间用字符c来填充
+
+**代码测试见test_2.cpp
