@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector的概念及接口测试", "vector的概念及接口测试\vector的概念及接口测试.vcxproj", "{F7409351-E3DB-470A-8F04-1E5C57F07CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7409351-E3DB-470A-8F04-1E5C57F07CAE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F7409351-E3DB-470A-8F04-1E5C57F07CAE}.Debug|Win32.Build.0 = Debug|Win32
+		{F7409351-E3DB-470A-8F04-1E5C57F07CAE}.Release|Win32.ActiveCfg = Release|Win32
+		{F7409351-E3DB-470A-8F04-1E5C57F07CAE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
