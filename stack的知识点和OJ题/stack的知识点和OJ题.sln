@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stack的知识点和OJ题", "stack的知识点和OJ题\stack的知识点和OJ题.vcxproj", "{DC58F339-D331-4427-B0A8-E0E1FFC010FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC58F339-D331-4427-B0A8-E0E1FFC010FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC58F339-D331-4427-B0A8-E0E1FFC010FE}.Debug|Win32.Build.0 = Debug|Win32
+		{DC58F339-D331-4427-B0A8-E0E1FFC010FE}.Release|Win32.ActiveCfg = Release|Win32
+		{DC58F339-D331-4427-B0A8-E0E1FFC010FE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
